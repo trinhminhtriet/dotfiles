@@ -13,13 +13,14 @@ To install the dotfiles, follow these steps:
 1. Clone the repository to your home directory:
 
    ```sh
-   git clone git@github.com:trinhminhtriet/dotfiles.git ~/dotfiles
+   git clone git@github.com:trinhminhtriet/dotfiles.git
    ```
 
 2. Run the installation script:
    ```sh
-   cd ~/dotfiles
-   ./install.sh
+   cd dotfiles
+   chmod +x bootstrap.sh
+   ./bootstrap.sh
    ```
 
 ## 🛠️ Customization
