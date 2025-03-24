@@ -1,0 +1,16 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "cmd-`": "workspace::NewTerminal"
+    }
+  },
+  {
+    "context": "Pane",
+    "bindings": {
+      "ctrl-cmd-h": "pane::ActivatePrevItem",
+      "ctrl-cmd-l": "pane::ActivateNextItem",
+      "ctrl-cmd-`": "pane::SplitRight"
+    }
+  }
+]
