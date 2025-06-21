@@ -2,6 +2,9 @@
 .DS_Store
 Desktop.ini
 
+# IDE
+.idea
+
 # Thumbnail cache files
 ._*
 Thumbs.db
@@ -16,3 +19,5 @@ Thumbs.db
 # Node.js
 node_modules
 npm-debug.log
+
+.tmp/
