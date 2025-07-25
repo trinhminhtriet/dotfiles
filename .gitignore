@@ -21,3 +21,23 @@ node_modules
 npm-debug.log
 
 .tmp/
+.atuin/
+.cache/
+.cargo/
+.docker/
+.gnupg/
+.idea/
+.local/
+.npm/
+.nvm/
+.rustup/
+.ssh/
+.vscode/
+.yarn/
+
+.bash_history
+.bash_logout
+.python_history
+.zsh_history
+.sudo_as_admin_successful
+.zcompdump

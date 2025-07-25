@@ -5,14 +5,11 @@
 git pull origin master
 
 function installDotFiles() {
-  rsync --exclude ".git/" \
-    --exclude ".DS_Store" \
+  rsync --exclude ".DS_Store" \
     --exclude ".tmp/" \
-    --exclude "bootstrap.sh" \
-    --exclude "README.md" \
-    --exclude "LICENSE" \
     -avh --no-perms . ~
   source ~/.bash_profile
+  source ~/.bashrc
 }
 
 if [ "$1" == "--force" -o "$1" == "-f" ]; then
