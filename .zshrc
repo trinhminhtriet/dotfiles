@@ -1,4 +1,4 @@
-# eval "$(starship init zsh)"
+source ~/.bashrc
 
 # Set up the prompt
 
@@ -37,11 +37,3 @@ zstyle ':completion:*' verbose true
 
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
 zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
-
-
-# Starship
-# eval "$(starship init bash)"
-
-# . "$HOME/.atuin/bin/env"
-
-# eval "$(atuin init zsh)"
