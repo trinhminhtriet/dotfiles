@@ -10,3 +10,4 @@ export PATH="$HOME/.local/bin:$PATH"
 export PATH="$HOME/projects/app/sonar-scanner-5.0.1.3006-macosx/bin:$PATH"
 
 export PATH="$PATH:$HOME/.dapr/bin"
+export PATH="$PATH:$HOME/.atuin/bin"
