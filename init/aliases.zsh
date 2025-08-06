@@ -16,4 +16,4 @@ alias lt="ls --tree"
 alias lt="ls --tree"
 
 # https://github.com/ajeetdsouza/zoxide
-alias z="z"
+alias z="zoxide"

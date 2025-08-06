@@ -11,3 +11,7 @@ export PATH="$HOME/projects/app/sonar-scanner-5.0.1.3006-macosx/bin:$PATH"
 
 export PATH="$PATH:$HOME/.dapr/bin"
 export PATH="$PATH:$HOME/.atuin/bin"
+
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/go
+export PATH="$GOPATH/bin:$GOROOT/bin:$PATH"
