@@ -15,3 +15,4 @@ export PATH="$PATH:$HOME/.atuin/bin"
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/go
 export PATH="$GOPATH/bin:$GOROOT/bin:$PATH"
+export PATH="$PATH:$HOME/apps/bin"

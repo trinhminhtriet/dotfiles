@@ -24,7 +24,9 @@ npm-debug.log
 .atuin/
 .cache/
 .cargo/
+.dotnet/
 .docker/
+.kube/
 .gnupg/
 .idea/
 .local/
@@ -34,6 +36,8 @@ npm-debug.log
 .ssh/
 .vscode/
 .yarn/
+.venv/
+go/
 
 .bash_history
 .bash_logout
@@ -41,3 +45,10 @@ npm-debug.log
 .zsh_history
 .sudo_as_admin_successful
 .zcompdump
+.cursor-server
+.vscode-server/
+
+apps/
+dockerstorage/
+workspace/
+zsh-autocomplete/
